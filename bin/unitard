@@ -26,8 +26,8 @@ class BwThrottler < Thor
   desc 'status', 'get status of the current limits'
   def status
     
-    pipe_line = `sudo ipfw pipe show #{PIPE_NUM}`.split(/\n/).first
-    iface_line = `sudo ipfw show #{RULE_NUM}`.split(/\n/).first
+    pipe_line = `sudo ipfw pipe show #{PIPE_NUM} 2>/dev/null`.split(/\n/).first
+    iface_line = `sudo ipfw show #{RULE_NUM} 2>/dev/null`.split(/\n/).first
     
     if pipe_line && iface_line
       speed_limit = pipe_line.scan(/\d+\.\d+/).join
