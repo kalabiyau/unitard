@@ -16,7 +16,7 @@ class BwThrottler < Thor
     
     if system("sudo ipfw pipe #{PIPE_NUM} config bw #{options[:bw]}Kbit/s delay 30 plr 0 2>&1 > /dev/null") &&
         system("sudo ipfw add #{RULE_NUM} pipe #{PIPE_NUM} ip from any to any via #{options[:iface]} 2>&1 > /dev/null")
-      say 'speed throttled. Your skintight Unitard is ready. Really tight :)', :green
+      say "speed throttled. Your skintight Unitard is ready. Really tight :) only #{options[:bw]} Kbit/sec", :green
     else
       say "error - exit status #{$?.exitstatus}", :red
     end
