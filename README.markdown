@@ -13,7 +13,7 @@ TODO:
 
 [x] Basic Implementation. Set bandwidth. Revert changes. Show status. 
 
-[..] Add linux wondershaper support
+[...] Add linux wondershaper support
 
 [..] Add linux tc support
 
