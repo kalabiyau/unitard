@@ -7,19 +7,19 @@ You know, this tiny... - skintight project was made for two reasons:
     2. Allow to simulate very slow and unreliable connections for testing web-app behaviour.
 
 ### OS supported:
-- MacOS 10.8.x, but i beleive that version does not matter
+- MacOS 10.8.x, but i beleive - version does not matter as everything is based on pure `ipfw`
 
 TODO:
 
-[x] Basic Implementation. Set bandwidth. Revert changes. Show status. 
+- [x] Basic Implementation. Set bandwidth. Revert changes. Show status. 
 
-[..] Add linux wondershaper support
+- [ ] Add linux wondershaper support
 
-[..] Add linux tc support
+- [ ] Add linux tc support
 
-[..] Cover with tests
+- [ ] Cover with tests
 
-[..] Add option to zip command to add 
+- [ ] Add option to zip command to add 
 
 
 You are more than welcome to take this unitard and do whathever … stahp! stahp! Not this, oh mercy…
