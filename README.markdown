@@ -1,6 +1,6 @@
 # Unitard. Skintight!
 
-You know, this tiny... - skintight project was made for two reasons:
+ou know, this tiny... - skintight project was made for two reasons:
 
     1. Provide possibility to limit bandwidth of any  internet adapter to consume lesser Internet. I know, i know… Nowadays it is - absurd. But…
     
